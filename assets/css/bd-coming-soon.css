@@ -31,6 +31,17 @@ body {
     @media (max-width: 767px) {
       .navbar-dark {
         padding-bottom: 0; } }
+
+        @media (max-width: 499px) {
+          .navbar-dark .navbar-text {
+              display: block;
+              text-align: center;
+              border-right: none;
+              padding: 5px 0; /* Adjust padding as needed for spacing */
+              width: 100%; /* Ensure full width */
+        margin: 0 auto; /* Center horizontally */
+          }
+      }
   
   .page-title {
     font-size: 100px;
@@ -40,7 +51,7 @@ body {
     margin-bottom: 6px; }
     @media (max-width: 767px) {
       .page-title {
-        font-size: 35px;
+        font-size: 50px;
         margin-bottom: 14px; } }
   
   .page-description {
