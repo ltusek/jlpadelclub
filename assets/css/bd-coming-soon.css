@@ -69,6 +69,13 @@ body {
   margin-bottom: 6px;
 }
 
+.header {
+  filter: brightness(0) saturate(100%) invert(96%) sepia(45%) saturate(3124%) hue-rotate(327deg) brightness(121%) contrast(91%);
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
 @media (max-width: 767px) {
   .page-title {
     font-size: 50px;
@@ -76,14 +83,11 @@ body {
   }
 }
 
-.page-title span {
-  color: #FF0334;
-}
-
 .page-description {
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
   margin-bottom: 59px;
+  margin-top: 30px;
 }
 
 @media (max-width: 767px) {
