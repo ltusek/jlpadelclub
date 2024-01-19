@@ -81,13 +81,17 @@ body {
     font-size: 50px;
     margin-bottom: 14px;
   }
+
+  .header {
+    width: 80%;
+  }
 }
 
 .page-description {
   text-align: center;
   font-size: 28px;
   margin-bottom: 59px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 @media (max-width: 767px) {
